@@ -223,10 +223,10 @@ h3 {
 	background-color: rgba(244, 208, 192, 0.5);
 	color: #AC3B67;
 	font-size: 18px;
-	/* letter-spacing: 1px; */
+	letter-spacing: 1px;
 	display: inline-block;
-	height: 170px;
-	width: 170px;
+	height: 180px;
+	width: 180px;
 	margin: 23px;
 	border: 1px solid transparent;
 	border-radius: 50%;
