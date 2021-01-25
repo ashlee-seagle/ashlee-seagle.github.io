@@ -474,7 +474,9 @@ a:hover  {
     }
   }
 
+  
   /*laptops */
+  /* 
   @media only screen and (max-width: 1400px) {
 
     .container.skills-container {
@@ -485,7 +487,7 @@ a:hover  {
             margin: 30px 27px 30px 27px;
         }
       }
-
+*/
     /* Large Devices, Wide Screens */
     @media only screen and (max-width : 1200px) {
         ul.topnav li a {
