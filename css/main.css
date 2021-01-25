@@ -455,6 +455,31 @@ a:hover  {
 
   /*==========  Media Queries ==========*/
 
+  /*wide Screen Monitors */
+
+  @media only screen and (min-width: 1800px) {
+
+.container.skills-container {
+    margin: 35px;
+}
+
+    .indSkill {
+        margin: 30px 55px 30px 55px;
+    }
+  }
+
+  /*laptops */
+  @media only screen and (min-width: 1400px) {
+
+    .container.skills-container {
+        margin: 15px;
+    }
+    
+        .indSkill {
+            margin: 30px 27px 30px 27px;
+        }
+      }
+
     /* Large Devices, Wide Screens */
     @media only screen and (max-width : 1200px) {
         ul.topnav li a {
