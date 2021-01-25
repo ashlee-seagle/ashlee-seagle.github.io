@@ -194,7 +194,7 @@ h3 {
     width: 70%;
     max-width: 400px;
     position: relative;
-    background-color: #AC3B67;
+    background-color: #8ED8BF;
     color: #fff;
     text-align: center;
     line-height: 4rem;
@@ -212,7 +212,7 @@ h3 {
 .skills {
 	height: 100%;
 	/* Create the parallax scrolling effect */
-	background: url("../img/resumeBackground.jpg");
+	background-color: #EEE2DC;
 	background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -221,9 +221,10 @@ h3 {
 
 
 .indSkill {
-	background-color: rgba(244, 208, 192, 0.5);
-	color: #AC3B67;
-	font-size: 18px;
+	
+    background-color: #EDC7B7;
+    color: #123C69;
+    font-size: 16px;
 	letter-spacing: 1px;
 	display: inline-block;
 	height: 170px;
@@ -269,6 +270,9 @@ h3 {
 
 .row {margin-left: 20px !important;}
 
+label, h4 {
+    color: #123C69;
+}
 
 .projects {
 /*	background-color: #98878F; */
@@ -333,7 +337,7 @@ div.thumbnail img {
 
 form {
 /*	background: url("../img/formBackground.png"); */
-	background-color: rgba(244, 208, 192, 0.5); 
+	background-color: #8ED8BF; 
 	/*opacity: 0.7;
     z-index: 13; */
     width: 50%;
