@@ -796,7 +796,12 @@ button.btn.btn-primary {
         line-height: 20px;
         display: block;
         margin: 0 auto;
-	    }
+        }
+        
+        .container.container.skills-container {
+            padding-right: 50px;
+}
+        }
 }
 
 @media only screen and (max-width: 325px) {
