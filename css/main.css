@@ -499,7 +499,7 @@ a:hover  {
             height: 170px;
             width: 170px;
             margin: 20px;
-            font-size: 20px;
+            font-size: 16px;
         }
 
 /* add this id in index.html */
@@ -583,6 +583,8 @@ a:hover  {
     background-color: #AC3B67;
     text-align: center;
   }
+
+  .skills-container { margin-left: 70px;}
     
     }
 
@@ -682,6 +684,7 @@ h3 {
   /*  margin: 0 auto !important; */
     height: 50px;
     padding-left: 25px;
+    box-shadow: none;
 }
 
 .divider {
