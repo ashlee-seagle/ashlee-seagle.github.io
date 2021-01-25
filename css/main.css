@@ -723,9 +723,9 @@ h3 {
     margin-top: 0;
   /*  margin: 0 auto !important; */
     height: 50px;
-    padding-left: 25px;
+ /*  padding-left: 25px; */
     box-shadow: none;
-    margin-left: 35px;
+  /*  margin-left: 35px; */
 }
 
 .divider {
@@ -792,8 +792,10 @@ button.btn.btn-primary {
 
     }
     .indSkill {
-	    padding-right: 50px;
-	    line-height: 20px;
+	  /*  padding-right: 50px; */
+        line-height: 20px;
+        display: block;
+        margin: 0 auto;
 	    }
 }
 
