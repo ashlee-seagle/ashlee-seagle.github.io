@@ -242,7 +242,13 @@ h3 {
     -webkit-transition: all .2s cubic-bezier(0.68, -0.55, 0.27, 1.55);
 }
 
+.container.skills-container {
+    margin: 15px;
+}
 
+    .indSkill {
+        margin: 30px 27px 30px 27px;
+    }
 
 
 .indSkill:hover {
@@ -469,7 +475,7 @@ a:hover  {
   }
 
   /*laptops */
-  @media only screen and (min-width: 1400px) {
+  @media only screen and (max-width: 1400px) {
 
     .container.skills-container {
         margin: 15px;
@@ -493,7 +499,16 @@ a:hover  {
             margin: 20px;
         } 
 
-    }
+        .container.skills-container {
+            margin: 15px;
+        }
+        
+            .indSkill {
+                margin: 30px 27px 30px 27px;
+            }
+          }
+
+    
 
 /* iPad Pro */
   @media only screen and (max-width : 1030px) and (min-width: 1020px){
