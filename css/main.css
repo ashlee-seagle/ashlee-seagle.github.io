@@ -234,7 +234,8 @@ h3 {
 	border-radius: 50%;
 	text-align: center;
 	vertical-align: middle;
-	line-height: 180px;  
+    line-height: 180px;  
+    box-shadow: 7px 7px 5px grey;
 	-webkit-transition: width .75s ease-in-out; /* Safari 3.1 to 6.0 */
     transition: width .75s ease-in-out;
     transition: all .2s cubic-bezier(0.68, -0.55, 0.27, 1.55);
@@ -268,7 +269,6 @@ h3 {
 
 }
 
-.row {margin-left: 20px !important;}
 
 label, h4 {
     color: #123C69;
@@ -301,6 +301,10 @@ img#construction {
     height: 200px;
     display: block;
     margin-top: 35px;
+}
+
+.thumbnail {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
 }
 
 div.thumbnail img {
