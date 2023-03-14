@@ -363,31 +363,16 @@ button.btn.btn-primary {
 
 
 footer {
-    background: #AC3B67;
+    background: #fffdf9;
     padding: 0;
     min-height: 450px;
     text-align: center;
-    color: #fff;
+    color: #333;
     clear: both;
  }
 
-.resumePage {
-    background: url("../img/resumeBackground.jpg");
-}
-
-.resumeHeading {
-	text-align: center;
-	margin: 80px auto 80px;
-	color: white !important;
-
-}
-
-.resumeHeading h1 {
-    color: white !important;
-}
 
 a {
-	color: white !important;
 	text-decoration: none !important;
 }
 
@@ -399,36 +384,7 @@ a:hover  {
 }
 
 
-.obfuscate { 
-    unicode-bidi: bidi-override; 
-    direction: rtl; 
-    font-size: large;	
-}
 
-
-
-#myResume {
-    background-color: white;
-    max-width: 1040px;
-    margin: 0 auto;
-    margin-top: 80px !important;
-    margin-bottom: 80px !important;
-    margin: 0 auto;
-}
-
-#resumeHeader {
-    height: 320px;
-    background: url('../img/code_coffee2.jpg');
-    background-size: cover;
-  /*  background-attachment: fixed; */
-    filter: grayscale(50%);
-
-}
-.resumeContent {
-    width: 80%;
-    margin: 0 auto;
-    margin-top: 40px;
-}
 
 .dates {
 	float: right !important;
@@ -452,19 +408,7 @@ a:hover  {
   }
 
   
-  /*laptops */
-  /* 
-  @media only screen and (max-width: 1400px) {
 
-    .container.skills-container {
-        margin: 15px;
-    }
-    
-        .indSkill {
-            margin: 30px 27px 30px 27px;
-        }
-      }
-*/
     /* Large Devices, Wide Screens */
     @media only screen and (max-width : 1200px) {
         ul.topnav li a {
@@ -621,7 +565,7 @@ a:hover  {
                     background-size: cover;
 
      }
-    .ribbon { /* display: none !important; */
+    .ribbon {
 	        margin-top: -120px !important;
 	    }
 
@@ -640,7 +584,7 @@ a:hover  {
     margin: 0 auto;
     width: 400px;
     font-weight: 100;
-    font-size: 25px !important;
+    font-size: 25px;
     text-align: center;
     margin-top: 10px;
 }
@@ -656,7 +600,6 @@ a:hover  {
 h3 {
     height: 30px;
     font-size: 20px;
-   /* margin-bottom: 40px !important; */
     padding: 20px;
 }
 
@@ -665,14 +608,13 @@ h3 {
 	    }
     
 .wrapper {
-/*  background: url("../img/resumeBackground.jpg"); */
     background-color: #eee;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0 auto;
-    padding: 88px !important;
+    padding: 88px;
 }
 
 
@@ -685,24 +627,16 @@ h3 {
  .indSkill {
     background-color: transparent;
     border-radius: 5px;
-    font-size: 20px !important;
+    font-size: 20px;
     display: inline-block;
-  /*  height: 100px;
-    width: 100px;
-    margin: 20px;
-    border: 1px solid transparent;
-    border-radius: 50%; */
     text-align: center;
     vertical-align: middle;
-    line-height: 100% !important;
+    line-height: 100%;
     height: 100%;
     margin-bottom: 20px;
     margin-top: 0;
-  /*  margin: 0 auto !important; */
     height: 50px;
- /*  padding-left: 25px; */
     box-shadow: none;
-  /*  margin-left: 35px; */
 }
 
 .divider {
@@ -726,7 +660,7 @@ img#construction {
 }
 
 h3 {
-    font-size 15px !important;
+    font-size 15px;
     height: 20px;
     }
 
@@ -744,12 +678,6 @@ h3 {
 button.btn.btn-primary {
   margin-top: 15px;
 	    }
-
-
-#myResume {
-    margin-top: 0 !important;
-    margin-bottom: 0 !important;
-}
 
     }
 
