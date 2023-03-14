@@ -11,34 +11,26 @@ body {
 	margin: 0 !important;
 	font-family: 'Trebuchet MS', sans-serif;
 	letter-spacing: 2px;
-	background-color: #fff;
+	background-color: #fffdf9;
+	box-sizing: border-box;
 }
 
 nav.navbar.navbar-fixed-top {
-	background-color: transparent; 
-	width: 100% !important;
-	height: 60px;
+	background-color: #fffdf9; 
+	width: 100%;
+	height: 70px;
 	opacity: 1;
     z-index: 13;
     border: none;
 }
 
-nav.navbar.navbar-fixed-top.change-color {
-	background-color: #AC3B67 !important;
-}
 
-/*.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-	border: none !important;
-} */
-
-/* Remove margins and padding from the list, and add a black background color */
 ul.topnav {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     float: right;
-    margin-top: -60px;
 }
 
 /* Float the list items side by side */
@@ -47,12 +39,12 @@ ul.topnav li {float: left;}
 /* Style the links inside the list items */
 ul.topnav li a {
     display: inline-block;
-    color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     transition: 0.3s;
     font-size: 17px;
+    color: #333;
 }
 
 /* Hide the list item that contains the link that should open and close the topnav on small screens */
@@ -63,13 +55,7 @@ nav li {
 	list-style-type: none;
 }
 
-li a {
-	color: #fff !important;
-	text-decoration: none !important;
-	font-size: large;
-	border: 2px solid transparent;
-	margin: 0;
-}
+
 
 
 /*Hover state for top level links*/
@@ -86,15 +72,7 @@ li a:hover  {
 	padding-bottom: 10px;
 } */
 
-img#ash_pic {
-	border-radius: 50%;
-	filter: grayscale(100%);
-	margin: 0 auto;
-	display: block;
-	opacity: 0.9;
-    margin-top: 170px
 
-}
 
 
 .jumbotron {
@@ -103,7 +81,6 @@ img#ash_pic {
 	height: 800px;
 	width: 100%;
 	display: block;
-	margin-top: -50px !important; 
 	margin: 0;
 	background: linear-gradient(
                      rgba(20,20,20, .74), 
