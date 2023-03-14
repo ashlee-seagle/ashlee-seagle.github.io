@@ -375,6 +375,12 @@ footer {
 }
 
 
+element.style {
+}
+.col-sm-2.indSkill {
+    text-align: center;
+    padding: 20px;
+}
 
   /*==========  Media Queries ==========*/
 
@@ -671,23 +677,7 @@ button.btn.btn-primary {
 		width: 100%;
 	}
 	
-	.indSkill {
-		    padding-right: 70px;
-		    padding-left: 0;
-		    line-height: 20px;
-	} 
+	
 }
-
-.container.skills-container .col-sm-2 {
-    
-    text-align: center;
-    padding: 20px;
-}
-	  
-	@media (max-width: 767px {
-		.col-sm-2.indSkill {
-    text-align: center;
-    padding: 20px;
-		}}
 
 
