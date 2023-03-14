@@ -2,9 +2,7 @@
 
 
 
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
+
 
 
 body {
@@ -315,7 +313,7 @@ div.thumbnail img {
 
 form {
 	background-color: #8ED8BF; 
-    z-index: 13; */
+    z-index: 13;
     width: 50%;
     margin: 0 auto;
     border-radius: 25px;
@@ -455,6 +453,11 @@ footer {
 
 
     } */
+	    
+	    @media screen and (max-width: 767px)
+ul.topnav li {
+    display: none;
+}
 
     /* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
     @media screen and (max-width:680px) {
@@ -693,4 +696,7 @@ button.btn.btn-primary {
 	} 
 }
 
-
+.col-sm-2 {
+    text-align: center;
+    padding: 40px;
+}
