@@ -187,10 +187,10 @@ h3 {
 .ribbon h3 {
 	color: #fff !important;
 }
-	
+	/*
 .skills {
 	height: 100%;
-	/* Create the parallax scrolling effect */
+
 	background-color: #EEE2DC;
 	background-attachment: fixed;
     background-position: center;
@@ -215,14 +215,10 @@ h3 {
 	vertical-align: middle;
     line-height: 180px;  
     box-shadow: 7px 7px 5px grey;
-	-webkit-transition: width .75s ease-in-out; /* Safari 3.1 to 6.0 */
+
     transition: width .75s ease-in-out;
     transition: all .2s cubic-bezier(0.68, -0.55, 0.27, 1.55);
     -webkit-transition: all .2s cubic-bezier(0.68, -0.55, 0.27, 1.55);
-}
-
-.container.skills-container {
-    margin: 15px;
 }
 
   
@@ -232,7 +228,7 @@ h3 {
     color: #fff;
     z-index: 13;
 }
-
+*/
 .dividerImg {
 	background: url("../img/code_coffee2.jpg");
 	width: 100%;
@@ -383,7 +379,7 @@ footer {
   /*wide Screen Monitors */
 
   @media only screen and (min-width: 1800px) {
-
+/*
 .container.skills-container {
     margin: 35px;
 }
@@ -392,7 +388,7 @@ footer {
         margin: 30px 55px 30px 55px;
     }
   }
-
+*/
   
 
     /* Large Devices, Wide Screens */
@@ -401,7 +397,7 @@ footer {
             padding: 10px 12px;
             font-size: 15px;
         }
-
+/*
         .indSkill {
             height: 170px;
             width: 170px;
@@ -417,7 +413,7 @@ footer {
             }
           }
 
-    
+    */
 
 /* iPad Pro */
   @media only screen and (max-width : 1030px) and (min-width: 1020px){
@@ -427,42 +423,26 @@ footer {
 	    font-size: 15px;
 }
 
-.indSkill {
-	height: 130px;
-    width: 130px;
-    margin: 20px;
-}
+
 }
 
 
     /* Medium Devices, Desktops */
     @media only screen and (max-width : 992px) {
-        .skills.wrapper {
-            padding: 30px;
-        }
-	
+
 	    
 	    .row {margin-left:0 !important;}
 
-        .indSkill {
-            height: 170px;
-            width: 170px;
-            margin: 20px;
-            font-size: 16px;
-        }
+     
 
 /* add this id in index.html */
-        #mbIndSkills {
-            margin: 20px 143px 20px;
-         }
+       
 
     }
 
-    /* Small Devices, Tablets */
+    /* Small Devices, Tablets 
     @media only screen and (max-width : 768px) {
-        .skills.wrapper {
-            padding-left: 80px;
-        }
+       
 	 
 	.ribbon.first {
 		    margin-top: -60px;
@@ -472,13 +452,9 @@ footer {
 	   width: 70%;
 	    }
 	    
-	    .skills-container {
-    margin: 0 auto;
-    display: block;
-    width: 100%;
-}
 
-    }
+
+    } */
 
     /* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
     @media screen and (max-width:680px) {
@@ -533,7 +509,7 @@ footer {
     text-align: center;
   }
 
-  .skills-container { margin-left: 15px;}
+ /* .skills-container { margin-left: 15px;} */
     
     }
 
@@ -623,7 +599,7 @@ h3 {
     margin-top: 0;
     height: 50px;
     box-shadow: none;
-}
+} */
 
 .divider {
 display: none;
@@ -682,8 +658,9 @@ button.btn.btn-primary {
     		height: 62px;
 
     }
+	    
     .indSkill {
-	  /*  padding-right: 50px; */
+
         line-height: 20px;
         display: block;
         margin: 0 auto;
@@ -692,7 +669,7 @@ button.btn.btn-primary {
         .container.skills-container {
             padding-right: 50px;
 }
-        }
+        } 
 }
 
 @media only screen and (max-width: 325px) {
@@ -713,7 +690,7 @@ button.btn.btn-primary {
 		    padding-right: 70px;
 		    padding-left: 0;
 		    line-height: 20px;
-	}
+	} 
 }
 
 
