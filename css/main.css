@@ -14,7 +14,11 @@ body {
 	background-color: #fffdf9;
 	box-sizing: border-box;
 }
-
+.hello {
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 15%;
+}
 nav.navbar.navbar-fixed-top {
 	background-color: #fffdf9; 
 	width: 100%;
@@ -31,6 +35,7 @@ ul.topnav {
     padding: 0;
     overflow: hidden;
     float: right;
+    line-height: 2.75em;
 }
 
 /* Float the list items side by side */
@@ -59,11 +64,8 @@ nav li {
 
 
 /*Hover state for top level links*/
-li a:hover  {
-	text-decoration: none !important;
-	border: 2px solid #fff;
-	padding: 10px;
-	margin: 0px;
+ul.topnav li a:hover  {
+	color: #AC3B67
 }
 
 
@@ -78,7 +80,7 @@ li a:hover  {
 .jumbotron {
  /*   filter: grayscale(100%); */
 /*	max-width: 100% !important; */
-	height: 800px;
+	height: 600px;
 	width: 100%;
 	display: block;
 	margin: 0;
@@ -200,7 +202,7 @@ h3 {
 .indSkill {
 	
     background-color: #EDC7B7;
-    color: #123C69;
+    color: #AC3B67;
     font-size: 14.7px;
 	letter-spacing: 1px;
 	display: inline-block;
@@ -223,20 +225,13 @@ h3 {
     margin: 15px;
 }
 
-    .indSkill {
-        margin: 30px 27px 30px 27px;
-    }
-
+  
 
 .indSkill:hover {
-	background-color: #AC3B67;
-	margin-top: -10px;	
-	color: #fff;
-	transform: scale(1.1); 
-	opacity: 0.7;
+    background-color: #AC3B67;
+    color: #fff;
     z-index: 13;
 }
-
 
 .dividerImg {
 	background: url("../img/code_coffee2.jpg");
@@ -254,7 +249,7 @@ h3 {
 
 
 label, h4 {
-    color: #123C69;
+    color: #AC3B67;
 }
 
 .projects {
@@ -323,13 +318,12 @@ div.thumbnail img {
 
 
 form {
-/*	background: url("../img/formBackground.png"); */
 	background-color: #8ED8BF; 
-	/*opacity: 0.7;
     z-index: 13; */
     width: 50%;
     margin: 0 auto;
     border-radius: 25px;
+    height: 800px;
 }
 
 h2.formHeading {
@@ -357,7 +351,9 @@ button.btn.btn-primary {
     width: 40%;
     background-color: #AC3B67 !important;
     background-image: none !important;
-    border-color: #AC3B67 !important;
+    border-color: #AC3B67 !important; 
+	padding: 20px;
+    margin-bottom: 10px;
 }
 
 
@@ -365,23 +361,13 @@ button.btn.btn-primary {
 footer {
     background: #fffdf9;
     padding: 0;
-    min-height: 450px;
+    min-height: 250px;
     text-align: center;
-    color: #333;
+    color: #fffdf9;
     clear: both;
  }
 
 
-a {
-	text-decoration: none !important;
-}
-
-a:hover  {
-	text-decoration: none !important;
-	border: 2px solid #fff;
-	padding: 10px;
-	margin: 0px;
-}
 
 
 
