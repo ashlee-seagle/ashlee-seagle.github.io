@@ -28,7 +28,7 @@ body {
 
 
  body .navbar ul {
-	 background: #fe5e8a;
+	 background: #fffdf9;
 	 overflow: hidden;
 	 margin: 0;
 	 padding: 20px 0;
@@ -321,7 +321,7 @@ form {
     width: 50%;
     margin: 0 auto;
     border-radius: 25px;
-    height: 800px;
+        height: 850px;
 }
 
 h2.formHeading {
@@ -351,7 +351,7 @@ button.btn.btn-primary {
     background-image: none !important;
     border-color: #AC3B67 !important; 
 	padding: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 
@@ -678,7 +678,16 @@ button.btn.btn-primary {
 	} 
 }
 
-.col-sm-2 {
+.container.skills-container .col-sm-2 {
+    
     text-align: center;
-    padding: 40px;
+    padding: 20px;
 }
+	  
+	@media (max-width: 767px {
+		.col-sm-2.indSkill {
+    text-align: center;
+    padding: 20px;
+		}}
+
+
