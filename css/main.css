@@ -67,6 +67,11 @@ body {
 		 display: block;
 		 float: right;
 	}
+	body .navbar ul {
+	 display: inline-flex;
+    	 flex-direction: row;
+    	 justify-content: flex-end;
+	 }
 }
  
 
